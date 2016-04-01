@@ -1,0 +1,59 @@
+body {
+#	background-color: #D0F0C0; /* ohlol */
+	background-color: #c0d0f0; /* ohlol*/
+	color: black;
+
+	font-family: sans-serif;
+	font-size: 0.9em;
+}
+address, address img, .n, #linkedin, #twitter, #lastfm, #flickr, #github {
+	display: block;
+}
+address, address img {
+	position: absolute;
+}
+address {
+	top: 50%; left: 50%;
+
+	height: 150px;
+
+	margin: -80px 0 0 -80px;
+	padding: 5px 20px 5px 200px;
+
+	font-size: 1em;
+	font-style: normal;
+	line-height: 1.5em;
+
+	background-color: white;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+address img {
+	top: 5px; left: 5px;
+}
+.n {
+	font-size: 1.9em;
+	line-height: 1.5em;
+}
+#linkedin, #twitter, #lastfm, #flickr, #github {
+	margin-left: -20px;
+	padding-left: 20px;
+}
+#linkedin {
+	background: url('linkedin.ico') no-repeat left center;
+}
+#twitter {
+	background: url('twitter.ico') no-repeat left center;
+}
+#lastfm {
+	background: url('lastfm.ico') no-repeat left center;
+}
+#flickr {
+	background: url('flickr.png') no-repeat left center;
+}
+#github {
+	background: url('github.ico') no-repeat left center;
+}
+#linkedin {
+	margin-top: 0.8em;
+}
